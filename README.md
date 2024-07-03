@@ -49,7 +49,7 @@ To get a local copy up and running, follow these simple steps:
 
 ## Contact
 
-Sarthak Wagh - [@your-twitter-handle](https://twitter.com/_fotuwala_mh15) 
+Sarthak Wagh - [Connect on X](https://twitter.com/_fotuwala_mh15) 
 
 Project Link: [https://github.com/sarthakwagh16/Lumina-AI](https://github.com/sarthakwagh16/Lumina-AI)
 ```
