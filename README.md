@@ -1,5 +1,5 @@
 
-#Lumina AI: Personal AI Assistant Application
+# Lumina AI: Personal AI Assistant Application
 
 ## Overview
 
