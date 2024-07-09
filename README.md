@@ -1,9 +1,9 @@
 
-# Lumina AI
+#Lumina AI: Personal AI Assistant Application
 
 ## Overview
 
-I created this Lumina AI project using ReactJS and Google Generative AI to replicate the core functionalities of the other ai application. This responsive web app allows users to enter prompts, fetch data, view past searches, and retrieve previous search results. This project highlights my expertise in ReactJS, API integration, and web design.
+I developed Lumina AI, a web application powered by ReactJS and Google Generative AI, designed to function as a personal AI assistant. This project involved implementing robust features for users to input prompts, fetch real-time data, and access previous search results seamlessly. The user interface was meticulously crafted to prioritize usability and accessibility, showcasing my proficiency in ReactJS, adept API integration skills, and adherence to modern web design principles.
 
 ## Features
 
@@ -41,7 +41,7 @@ To get a local copy up and running, follow these simple steps:
    ```
 
 ## Usage
-
+- Generate your own Google Generative AI key and replace it in the application where the current API key is located for full functionality.
 - Open your browser and go to `http://localhost:3000` to see the application running.
 - Enter prompts to interact with the AI and fetch data.
 - View past searches and retrieve previous search results from the history.
