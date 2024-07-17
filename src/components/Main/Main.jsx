@@ -2,6 +2,8 @@ import "./main.css";
 import { assets } from "../../assets/assets";
 import { useContext } from "react";
 import { Context } from "../../context/Context";
+import Output from "./Output";
+import VoiceInput from "./VoiceInput";
 
 function Main() {
   const {
@@ -16,17 +18,18 @@ function Main() {
   return (
     <div className="main">
       <div className="nav">
-        <p>Gemini</p>
+        <p>Lumina Ai</p>
         <img src={assets.user_icon} alt="" />
+       
       </div>
       <div className="main-container">
         {!showResult ? (
           <>
             <div className="greet">
               <p>
-                <span>Hello, Dev. </span>
+                <span>Hello, fellow developer!</span>
               </p>
-              <p>How can I help you today?</p>
+              <p> How can I assist you today?</p>
             </div>{" "}
             <div className="cards">
               <div className="card">
@@ -62,7 +65,7 @@ function Main() {
                   <hr />
                 </div>
               ) : (
-                <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
+                <Output />
               )}
             </div>
           </div>
@@ -78,15 +81,19 @@ function Main() {
             />
             <div>
               <img src={assets.gallery_icon} alt="" />
-              <img src={assets.mic_icon} alt="" />
+              <VoiceInput setInput={setInput} />
               {input ? (
-                <img onClick={() => onSent()} src={assets.send_icon} alt="" />
+                <img
+                  onClick={() => onSent()}
+                  src={assets.send_icon}
+                  alt="send"
+                />
               ) : null}
             </div>
           </div>
           <p className="bottom-info">
-            Lumina may display inaccurate info, including about people, so
-            double-check its responses.
+            Lumina might show incorrect information, especially about people, so
+            please double-check its answers.
           </p>
         </div>
       </div>
